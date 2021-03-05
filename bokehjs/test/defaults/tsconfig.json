@@ -29,7 +29,9 @@
     "paths": {
       "@bokehjs/*": ["../../build/js/lib/*", "../../build/js/types/*"]
     },
-    "outDir": "../../build/test"
+    "outDir": "../../build/test",
+    "incremental": true,
+    "tsBuildInfoFile": "../../build/test/defaults.tsbuildinfo"
   },
   "include": [
     "../framework.ts",

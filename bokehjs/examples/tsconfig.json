@@ -31,7 +31,9 @@
     "paths": {
       "*": ["../build/js/lib/*", "../build/js/types/*"]
     },
-    "outDir": "../build/examples"
+    "outDir": "../build/examples",
+    "incremental": true,
+    "tsBuildInfoFile": "../../build/examples/examples.tsbuildinfo"
   },
   "include": ["./**/*.ts", "./bokehjs.d.ts"]
 }
