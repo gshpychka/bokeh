@@ -71,7 +71,7 @@ class Bool(PrimitiveProperty):
         help (str or None, optional) :
             A documentation string for this property. It will be automatically
             used by the :ref:`bokeh.sphinxext.bokeh_prop` extension when
-            generating Spinx documentation. (default: None)
+            generating Sphinx documentation. (default: None)
 
         serialized (bool, optional) :
             Whether attributes created from this property should be included
@@ -114,7 +114,7 @@ class Complex(PrimitiveProperty):
         help (str or None, optional) :
             A documentation string for this property. It will be automatically
             used by the :ref:`bokeh.sphinxext.bokeh_prop` extension when
-            generating Spinx documentation. (default: None)
+            generating Sphinx documentation. (default: None)
 
         serialized (bool, optional) :
             Whether attributes created from this property should be included
@@ -141,7 +141,7 @@ class Int(PrimitiveProperty):
         help (str or None, optional) :
             A documentation string for this property. It will be automatically
             used by the :ref:`bokeh.sphinxext.bokeh_prop` extension when
-            generating Spinx documentation. (default: None)
+            generating Sphinx documentation. (default: None)
 
         serialized (bool, optional) :
             Whether attributes created from this property should be included
@@ -184,7 +184,7 @@ class Float(PrimitiveProperty):
         help (str or None, optional) :
             A documentation string for this property. It will be automatically
             used by the :ref:`bokeh.sphinxext.bokeh_prop` extension when
-            generating Spinx documentation. (default: None)
+            generating Sphinx documentation. (default: None)
 
         serialized (bool, optional) :
             Whether attributes created from this property should be included
@@ -228,7 +228,7 @@ class String(PrimitiveProperty):
         help (str or None, optional) :
             A documentation string for this property. It will be automatically
             used by the :ref:`bokeh.sphinxext.bokeh_prop` extension when
-            generating Spinx documentation. (default: None)
+            generating Sphinx documentation. (default: None)
 
         serialized (bool, optional) :
             Whether attributes created from this property should be included
